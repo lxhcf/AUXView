@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="40dp"
+    android:layout_marginTop="30dp"
+    android:layout_marginRight="40dp"
+    android:layout_marginBottom="30dp"
+    android:orientation="vertical"
+    android:id="@+id/layout_main"
+    tools:context=".WifiConnection">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="81dp"
+        android:paddingRight="82dp"
+        android:src="@mipmap/adddevice_img_wifi" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:layout_marginBottom="12dp">
+
+        <TextView
+            android:id="@+id/wifiName"
+            android:layout_width="65dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="150dp"
+            android:text="Wi-Fi名称"
+            android:textColor="#ff333333"
+            android:textSize="14sp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/wifiName"
+            android:text="更改Wi-Fi"
+            android:textColor="#ff256bbd"
+            android:textSize="14sp"
+
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="99dp"
+        android:layout_height="28dp"
+        android:text="aux-XXXX"
+        android:textColor="#ff333333"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="Wi-Fi密码"
+        android:textColor="#ff333333"
+        android:textSize="14sp"
+        android:layout_marginTop="46dp"
+        android:layout_marginBottom="12dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/editsharp"
+
+        android:inputType="textPassword"
+        />
+
+    <TextView
+        android:layout_width="117dp"
+        android:layout_height="20dp"
+        android:text="暂不支持5G Wi-Fi"
+        android:textColor="#FF256BBD"
+        android:textSize="14sp"
+        android:layout_marginTop="14dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <!--<Button-->
+        <!--android:layout_marginTop="50dp"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="popup"-->
+        <!--android:onClick="popup"-->
+        <!--/>-->
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_next"
+        android:layout_marginTop="64dp"
+        android:text="下一步"
+        android:textColor="#FF256BBD"
+        android:background="@drawable/btn_shape2"
+        />
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+
+        <!--<FrameLayout-->
+            <!--android:id="@+id/frameLayout"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="500dp"-->
+            <!--android:layout_alignParentBottom="true" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/buttonBottomDialog"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="BottomDialog" />-->
+       <!---->
+
+    <!--</RelativeLayout>-->
+
+
+
+</LinearLayout>

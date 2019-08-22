@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF7F7F7"
+    tools:context=".InstallLoaction">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="327dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="28dp"
+        android:layout_height="20dp"
+        android:text="单位"
+        android:textColor="#ff8e959d"
+        android:textSize="14sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#FFFFFFFF"
+        android:paddingLeft="20dp"
+        android:paddingRight="14dp"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="27dp"
+            android:layout_marginBottom="27dp"
+            android:src="@mipmap/device_icon_timing"
+            />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="22dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="197dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginBottom="30dp"
+            android:text="宋诏桥小学"
+            android:textColor="#ff333333"
+            android:textSize="16sp"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="29dp"
+            android:layout_marginBottom="29dp"
+            android:src="@mipmap/common_btn_go"
+            />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="327dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="28dp"
+        android:layout_height="20dp"
+        android:text="房间"
+        android:textColor="#ff8e959d"
+        android:textSize="14sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#FFFFFFFF"
+        android:paddingLeft="20dp"
+        android:paddingRight="14dp"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="27dp"
+            android:layout_marginBottom="27dp"
+            android:src="@mipmap/device_icon_device"
+            />
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="22dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="197dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginBottom="30dp"
+            android:text="A幢3楼301"
+            android:textColor="#ff333333"
+            android:textSize="16sp"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="29dp"
+            android:layout_marginBottom="29dp"
+            android:src="@mipmap/common_btn_go"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginRight="37dp"
+        android:text="下一步"
+        android:textColor="#FF256BBD"
+        android:background="@drawable/btn_shape2"
+        >
+
+
+    </Button>
+
+</LinearLayout>
