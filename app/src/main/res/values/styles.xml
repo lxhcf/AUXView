@@ -8,8 +8,4 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="anim_menu_bottombar">
-        <item name="android:windowEnterAnimation">@anim/menu_bottombar_in</item>
-    </style>
-
 </resources>
